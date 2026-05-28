@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-finspace-data`](https://www.npmjs.com/package/@aws-sdk/client-finspace-data/v/3.1054.0).
+[`@aws-sdk/client-finspace-data`](https://www.npmjs.com/package/@aws-sdk/client-finspace-data/v/3.1055.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-finspace-data - [https://cloud-sdk-builds.github.io/?sdk=client-finspace-data](https://cloud-sdk-builds.github.io/?sdk=client-finspace-data)
-- @aws-sdk/client-finspace-data v3.1054.0 - [https://cloud-sdk-builds.github.io/?sdk=client-finspace-data&version=3.1054.0](https://cloud-sdk-builds.github.io/?sdk=client-finspace-data&version=3.1054.0)
+- @aws-sdk/client-finspace-data v3.1055.0 - [https://cloud-sdk-builds.github.io/?sdk=client-finspace-data&version=3.1055.0](https://cloud-sdk-builds.github.io/?sdk=client-finspace-data&version=3.1055.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1054.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1055.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-fW8/IRBzh2pK1LEO4vjUUzF8rE5TwxWx/DSae/Zyieo0FNfpOl3XcKAUPfaTaVGf
+sha384-ZsDa7KlvCru9Nfw6XllWtQjgIaC2lkN9rmw50L9QkDWMs5TFoXLoTEUjUuJq8ZIg
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-finspace-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1054.0/index.min.mjs"
+            "@aws-sdk/client-finspace-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1055.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1054.0/index.min.mjs": "sha384-fW8/IRBzh2pK1LEO4vjUUzF8rE5TwxWx/DSae/Zyieo0FNfpOl3XcKAUPfaTaVGf"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1055.0/index.min.mjs": "sha384-ZsDa7KlvCru9Nfw6XllWtQjgIaC2lkN9rmw50L9QkDWMs5TFoXLoTEUjUuJq8ZIg"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-finspace-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1054.0/index.min.mjs"
+                        "@aws-sdk/client-finspace-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1055.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1054.0/index.min.mjs": "sha384-fW8/IRBzh2pK1LEO4vjUUzF8rE5TwxWx/DSae/Zyieo0FNfpOl3XcKAUPfaTaVGf"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-finspace-data@3.1055.0/index.min.mjs": "sha384-ZsDa7KlvCru9Nfw6XllWtQjgIaC2lkN9rmw50L9QkDWMs5TFoXLoTEUjUuJq8ZIg"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1054.0`)
+* Always pin to a specific version (`@3.1055.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-finspace-data/blob/refs/tags/3.1054.0/LICENSE
+https://github.com/cloud-sdk-builds/client-finspace-data/blob/refs/tags/3.1055.0/LICENSE
 ```
 
 ---
